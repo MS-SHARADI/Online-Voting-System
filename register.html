@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>registration form</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div class="container">
+    <div class="title">Registration</div>
+    <form action="#">
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details">Voter ID</span>
+                <input type="number" placeholder="Enter your Voter Id" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Father name</span>
+                <input type="text" placeholder="Enter your Father Name" required>
+            </div>
+            <div class="input-box">
+                <span class="details">DOB</span>
+                <input type="date" placeholder="Enter your DOB" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Mobile</span>
+                <input type="number" placeholder="Enter your number" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Email id</span>
+                <input type="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Address</span>
+                <input type="text" placeholder="Enter your Address" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Password</span>
+                <input type="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Confirm password</span>
+                <input type="text" placeholder="Confirm your password" required>
+            </div>
+            <div id="upload" style="width: 30%">
+                Upload image: <input type="file" id="profile" name="image" required>
+            </div><br>
+        
+        
+            <div class="gender-details">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="">
+                        <span class="dot one"></span> 
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span> 
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span> 
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+        </div>
+        <div class="button">
+            <input type="submit" class="register"><br>
+        </div>
+        Already user? <a href="./index.html"> Login here </a>
+    </form>
+    </div>    
+</body>
+</html>
